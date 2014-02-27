@@ -1,0 +1,73 @@
+.body{
+    background-color:gray;
+    margin:0 0;    
+}
+a:link, a:active{
+    text-decoration:none;
+
+}
+
+.barra-topo{
+    height:60px;
+    background-color:black;
+}
+.conteudo{
+    width:85%;
+    background-image:url("index-img/index-fundo.png");
+    background-size:100% 100%;
+    height:800px;
+    margin: 0 auto;
+}
+.conteudo-baixo{
+    width:85%;
+    background-color:white;
+    height:300px;
+    margin: 0 auto;
+}
+.rodape{
+    height:200px;
+    background-color:black;
+}
+.logo{
+    float:left;
+    margin: 0 0;
+    background-image:url("index-img/logo.png");
+    height:60px;
+    width:200px;
+}
+.menu{
+    height:60px;
+    color:white;
+    font-size:24px;
+    font-family:Sans,Arial;
+}
+.menu a:link, .menu a:active{
+    color:white;
+    display:block;
+    float:left;
+    padding:16px;
+    
+}
+.menu a:hover, .menu a:active{
+    background-color:rgb(199,217,255);
+    color:black;
+    padding:16px;
+    display:block;
+    float:left;
+    
+}
+.menu ul{
+    float:left;
+    display:inline;
+    margin-left:100px;
+    height:60px;
+    margin-top:0;
+    margin-bottom:0;
+    padding:0px;
+}
+.menu ul li{
+    list-style:none;
+    margin:0px 30px;
+    display:inline-block;
+    
+}
